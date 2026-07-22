@@ -1,0 +1,43 @@
+---
+title: Tool Ninja Docs
+description: Documentation for Tool Ninja — focused Premiere Pro and After Effects extensions that live right in your workflow.
+template: splash
+hero:
+  tagline: Sharp tools for a faster edit. Guides, references, and troubleshooting for every Tool Ninja extension.
+  actions:
+    - text: What is Tool Ninja?
+      link: /toolninja-docs/getting-started/what-is-tool-ninja/
+      icon: right-arrow
+    - text: Get CutCap
+      link: https://toolninja.gumroad.com/l/cutcap
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## Start here
+
+<CardGrid>
+	<LinkCard title="Install an extension" description="Get a Tool Ninja .zxp into Premiere Pro." href="/toolninja-docs/getting-started/installation/" />
+	<LinkCard title="Activate your license" description="One license, up to two computers, works offline." href="/toolninja-docs/getting-started/licensing/" />
+	<LinkCard title="CutCap overview" description="Edit captions word-by-word inside Premiere Pro." href="/toolninja-docs/cutcap/overview/" />
+	<LinkCard title="Keyboard shortcuts" description="Every gesture and shortcut in one place." href="/toolninja-docs/reference/keyboard-shortcuts/" />
+</CardGrid>
+
+## Tools
+
+<CardGrid>
+	<Card title="CutCap" icon="seti:video">
+		A caption editor that lives inside Premiere Pro. Import an SRT, VTT, or CSV, fix the cut and the wording in the panel, then push the result back to your timeline — as a caption track or as Motion Graphics Template clips.
+
+		[Read the CutCap docs →](/toolninja-docs/cutcap/overview/)
+	</Card>
+	<Card title="More on the way" icon="rocket">
+		Markerit and other focused Premiere Pro and After Effects extensions are in the works. Their docs will appear here as they ship.
+	</Card>
+</CardGrid>
+
+## Need help?
+
+Email [toolninjaa@gmail.com](mailto:toolninjaa@gmail.com) with your Premiere version and a screenshot, or check the [FAQ](/toolninja-docs/reference/faq/).
