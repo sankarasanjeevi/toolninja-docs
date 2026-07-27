@@ -29,12 +29,17 @@
    pinned to the real brand accent (#f03d13) independently of the link colour.
    --------------------------------------------------------------------------- */
 
-/* Hero primary button: brand fill, white text (matches "Get Subtext" on the site) */
+/* Hero primary button: brand fill, white text (matches "Get Subtext" on the site).
+   ⚠ The class is `.sl-link-button.primary` in this Starlight version, NOT
+   `.action.primary` — that older selector silently matches nothing. Both are
+   listed so a Starlight upgrade cannot quietly revert this. */
+.sl-link-button.primary,
 .action.primary {
 	background: #f03d13;
 	color: #ffffff;
 	border-color: #f03d13;
 }
+.sl-link-button.primary:hover,
 .action.primary:hover {
 	background: #ff5a34;
 	border-color: #ff5a34;
