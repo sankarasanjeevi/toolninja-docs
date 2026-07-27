@@ -1,15 +1,22 @@
 ---
 title: FAQ
-description: Frequently asked questions about CutCap and Tool Ninja extensions.
+description: Frequently asked questions about Subtext and Tool Ninja extensions.
 ---
 
-## Does CutCap generate captions or transcribe audio?
+## Does Subtext generate captions or transcribe audio?
 
-No — CutCap **edits caption files you already have** (from Premiere's speech-to-text, a transcription service, or anywhere else that gives you an SRT). It makes fixing them fast.
+No — Subtext **edits caption files you already have** (from Premiere's speech-to-text, a transcription service, or anywhere else that gives you an SRT). It makes fixing them fast.
+
+## Wasn't this called CutCap?
+
+Yes. **Subtext is CutCap, renamed** — same tool, same developer, same license key. Installing
+Subtext over CutCap keeps your saved sessions and settings; the panel just appears as **Subtext**
+under Window → Extensions.
 
 ## Does it work on Mac?
 
-Not in v1 — **Windows only**. If that changes, it'll be announced on the [Tool Ninja site](https://toolninja.framer.website/) and here.
+**Yes** — Subtext runs on both Windows and macOS. Other Tool Ninja extensions are Windows-only for
+now; each tool's overview page states its requirements.
 
 ## Which Premiere versions are supported?
 

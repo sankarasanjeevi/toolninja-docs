@@ -1,9 +1,9 @@
 ---
 title: Keyboard shortcuts
-description: Every keyboard shortcut and gesture in CutCap.
+description: Every keyboard shortcut and gesture in Subtext.
 ---
 
-A complete reference of CutCap's keyboard shortcuts and mouse gestures.
+A complete reference of Subtext's keyboard shortcuts and mouse gestures.
 
 ## Navigation & selection
 

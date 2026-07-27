@@ -1,9 +1,9 @@
 ---
 title: Review & search
-description: Flag captions for review, add notes, and use Find & Replace across the whole file in CutCap.
+description: Flag captions for review, add notes, and use Find & Replace across the whole file in Subtext.
 ---
 
-CutCap has tools for reviewing a pass and making bulk text changes — without any of it leaking into your exported captions.
+Subtext has tools for reviewing a pass and making bulk text changes — without any of it leaking into your exported captions.
 
 ## Flag for review
 
@@ -11,7 +11,7 @@ CutCap has tools for reviewing a pass and making bulk text changes — without a
 - Use the **flag button in the toolbar** to jump between flagged captions.
 - Press **F** to flag the currently selected line.
 
-Flags and notes are **CutCap-only** — they're for your review pass and never touch the exported SRT.
+Flags and notes are **Subtext-only** — they're for your review pass and never touch the exported SRT.
 
 ## Find & Replace
 
@@ -25,4 +25,4 @@ Open Find & Replace with the **magnifier** button or **Ctrl+F**.
 
 ## Next steps
 
-- [Playback & sync](/toolninja-docs/cutcap/playback-and-sync/)
+- [Playback & sync](/toolninja-docs/subtext/playback-and-sync/)

@@ -1,13 +1,13 @@
 ---
 title: Installing an extension
-description: How to install a Tool Ninja .zxp into Adobe Premiere Pro on Windows.
+description: How to install a Tool Ninja .zxp into Adobe Premiere Pro on Windows or macOS.
 ---
 
 Tool Ninja extensions ship as a signed **`.zxp`** package. Installing one takes a couple of minutes.
 
 ## Before you start
 
-- **Windows** with **Adobe Premiere Pro 2023–2026** (v23.0+) installed.
+- **Windows** or **macOS** with **Adobe Premiere Pro 2023–2026** (v23.0+) installed. (Subtext runs on both; the other extensions are Windows-only for now.)
 - The **`.zxp` file** from your purchase receipt. Your download also includes an install guide and troubleshooting notes.
 
 ## Install with a ZXP installer
@@ -25,7 +25,7 @@ Independent Premiere extensions are **self-signed** — the package is signed by
 ## Open the panel
 
 1. **Restart Premiere Pro** if it was running during install.
-2. Open the panel from **Window → Extensions → _(tool name)_** — for example, **Window → Extensions → CutCap**.
+2. Open the panel from **Window → Extensions → _(tool name)_** — for example, **Window → Extensions → Subtext**.
 3. **Dock it** anywhere you like, just like any other Premiere panel.
 
 ## Troubleshooting

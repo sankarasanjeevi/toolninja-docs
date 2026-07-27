@@ -7,7 +7,7 @@ Tool Ninja builds **focused Premiere Pro and After Effects extensions** that liv
 
 ## The tools
 
-- **CutCap** — a caption editor for Premiere Pro. Import an SRT, VTT, or CSV, refine the cut and the wording word-by-word right in the panel, then push the finished captions back onto your timeline as a caption track or as Motion Graphics Template clips. [Read the CutCap docs](/toolninja-docs/cutcap/overview/).
+- **Subtext** (formerly CutCap) — a caption editor for Premiere Pro. Import an SRT, VTT, or CSV, refine the cut and the wording word-by-word right in the panel, then push the finished captions back onto your timeline as a caption track. [Read the Subtext docs](/toolninja-docs/subtext/overview/).
 
 More tools are on the way — their guides will appear in this documentation as they ship.
 
@@ -20,7 +20,7 @@ More tools are on the way — their guides will appear in this documentation as 
 
 ## Requirements
 
-Tool Ninja extensions are **Windows-only** in their current versions and run inside **Adobe Premiere Pro 2023–2026** (CEP panels, v23.0+). Per-tool requirements are noted on each tool's overview page.
+Tool Ninja extensions run inside **Adobe Premiere Pro 2023–2026** (CEP panels, v23.0+). **Subtext runs on Windows and macOS**; the other extensions are **Windows-only** in their current versions. Per-tool requirements are noted on each tool's overview page.
 
 ## Next steps
 

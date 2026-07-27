@@ -8,6 +8,21 @@ export default defineConfig({
 	// added, change `site` to the custom domain and remove `base`.
 	site: 'https://sankarasanjeevi.github.io',
 	base: '/toolninja-docs',
+	// CutCap was renamed Subtext (2026-07). Keep every old /cutcap/ URL alive —
+	// they are linked from the Gumroad page, the marketing site, and shipped docs.
+	redirects: {
+		'/cutcap': '/toolninja-docs/subtext/overview/',
+		'/cutcap/overview': '/toolninja-docs/subtext/overview/',
+		'/cutcap/importing': '/toolninja-docs/subtext/importing/',
+		'/cutcap/editing': '/toolninja-docs/subtext/editing/',
+		'/cutcap/cleanup': '/toolninja-docs/subtext/cleanup/',
+		'/cutcap/review-and-search': '/toolninja-docs/subtext/review-and-search/',
+		'/cutcap/playback-and-sync': '/toolninja-docs/subtext/playback-and-sync/',
+		'/cutcap/output': '/toolninja-docs/subtext/output/',
+		'/cutcap/settings': '/toolninja-docs/subtext/settings/',
+		// MOGRT push is not part of the shipping product — send it to the export page.
+		'/cutcap/mogrts': '/toolninja-docs/subtext/output/',
+	},
 	integrations: [
 		starlight({
 			title: 'Tool Ninja',
@@ -31,17 +46,16 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'CutCap',
+					label: 'Subtext',
 					items: [
-						{ label: 'Overview', slug: 'cutcap/overview' },
-						{ label: 'Importing captions', slug: 'cutcap/importing' },
-						{ label: 'Editing captions', slug: 'cutcap/editing' },
-						{ label: 'Cleanup', slug: 'cutcap/cleanup' },
-						{ label: 'Review & search', slug: 'cutcap/review-and-search' },
-						{ label: 'Playback & sync', slug: 'cutcap/playback-and-sync' },
-						{ label: 'Export & push to Premiere', slug: 'cutcap/output' },
-						{ label: 'Push as MOGRTs', slug: 'cutcap/mogrts' },
-						{ label: 'Appearance & settings', slug: 'cutcap/settings' },
+						{ label: 'Overview', slug: 'subtext/overview' },
+						{ label: 'Importing captions', slug: 'subtext/importing' },
+						{ label: 'Editing captions', slug: 'subtext/editing' },
+						{ label: 'Cleanup', slug: 'subtext/cleanup' },
+						{ label: 'Review & search', slug: 'subtext/review-and-search' },
+						{ label: 'Playback & sync', slug: 'subtext/playback-and-sync' },
+						{ label: 'Export & push to Premiere', slug: 'subtext/output' },
+						{ label: 'Appearance & settings', slug: 'subtext/settings' },
 					],
 				},
 				{

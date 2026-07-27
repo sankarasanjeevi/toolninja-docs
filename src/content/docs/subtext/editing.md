@@ -1,9 +1,9 @@
 ---
 title: Editing captions
-description: Word-level caption editing in CutCap — fixing words, splitting and merging lines, adding and deleting captions.
+description: Word-level caption editing in Subtext — fixing words, splitting and merging lines, adding and deleting captions.
 ---
 
-CutCap is built for fast, word-level fixes. Everything is a click or a keystroke away, and every change is undoable.
+Subtext is built for fast, word-level fixes. Everything is a click or a keystroke away, and every change is undoable.
 
 ## Selecting and navigating
 
@@ -32,9 +32,9 @@ Splitting divides the caption's time range at the split point; merging joins the
 
 ## Undo and redo
 
-Every edit is undoable with **Ctrl+Z** / **Ctrl+Y**. Work is also **auto-saved** continuously — see [History](/toolninja-docs/cutcap/output/#history).
+Every edit is undoable with **Ctrl+Z** / **Ctrl+Y**. Work is also **auto-saved** continuously — see [History](/toolninja-docs/subtext/output/#history).
 
 ## Next steps
 
-- [Cleanup](/toolninja-docs/cutcap/cleanup/)
-- [Review & search](/toolninja-docs/cutcap/review-and-search/)
+- [Cleanup](/toolninja-docs/subtext/cleanup/)
+- [Review & search](/toolninja-docs/subtext/review-and-search/)

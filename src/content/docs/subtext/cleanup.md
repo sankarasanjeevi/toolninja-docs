@@ -1,6 +1,6 @@
 ---
 title: Cleanup
-description: Fix an entire caption file in one pass with CutCap's cleanup bar.
+description: Fix an entire caption file in one pass with Subtext's cleanup bar.
 ---
 
 The **cleanup bar** fixes common problems across the **whole file** in a single pass. Every cleanup action is undoable, so you can try one and back it out if it isn't what you wanted.
@@ -23,4 +23,4 @@ All cleanup actions are undoable with **Ctrl+Z**, so a whole-file change is neve
 
 ## Next steps
 
-- [Review & search](/toolninja-docs/cutcap/review-and-search/)
+- [Review & search](/toolninja-docs/subtext/review-and-search/)
