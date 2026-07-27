@@ -19,6 +19,52 @@
 	--sl-color-white: #ffffff;
 }
 
+/* ---------------------------------------------------------------------------
+   Brand alignment overrides.
+
+   Starlight paints its primary button and the active sidebar item with
+   --sl-color-text-accent, which has to stay a LIGHT orange (#ff7a55) to keep
+   body links readable on a near-black page. Used as a fill that reads as a
+   washed-out salmon and looks nothing like the marketing site, so the fills are
+   pinned to the real brand accent (#f03d13) independently of the link colour.
+   --------------------------------------------------------------------------- */
+
+/* Hero primary button: brand fill, white text (matches "Get Subtext" on the site) */
+.action.primary {
+	background: #f03d13;
+	color: #ffffff;
+	border-color: #f03d13;
+}
+.action.primary:hover {
+	background: #ff5a34;
+	border-color: #ff5a34;
+	color: #ffffff;
+}
+
+/* Active sidebar item: a low-alpha accent wash with accent text, not a solid
+   slab. Mirrors the panels' own rule that dimmed accent = active state. */
+:root[data-theme='dark'] .sidebar-content a[aria-current='page'],
+:root[data-theme='dark'] nav a[aria-current='page'] {
+	background: rgba(240, 61, 19, 0.14);
+	color: #ff7a55;
+	border-radius: 4px;
+	font-weight: 600;
+}
+
+/* Theme toggle sits at the far right of a very wide header and disappears into
+   the background. Give it a surface so it reads as a control. */
+starlight-theme-select label {
+	background: var(--sl-color-gray-6);
+	border: 1px solid var(--sl-color-gray-4);
+	border-radius: 6px;
+	padding: 2px 6px;
+	color: var(--sl-color-gray-1);
+}
+starlight-theme-select label:hover {
+	border-color: var(--sl-color-accent);
+	color: var(--sl-color-accent-high);
+}
+
 /* Light theme overrides */
 :root[data-theme='light'] {
 	--sl-color-accent-low: #ffd9cc;
