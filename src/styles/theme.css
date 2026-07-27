@@ -46,6 +46,13 @@
 	color: #ffffff;
 }
 
+/* Site title (top-left wordmark): brand accent, not the lighter link orange.
+   Passes AA at this size because the wordmark is large and bold. */
+.site-title, a.site-title {
+	color: #f03d13;
+	font-weight: 700;
+}
+
 /* Active sidebar item: a low-alpha accent wash with accent text, not a solid
    slab. Mirrors the panels' own rule that dimmed accent = active state. */
 :root[data-theme='dark'] .sidebar-content a[aria-current='page'],
